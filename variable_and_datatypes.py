@@ -83,3 +83,5 @@ a = name[-4 : -1]
 a = name[ : 6]
 a = name[0 : ]
 print(a)
+
+
