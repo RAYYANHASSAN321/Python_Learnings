@@ -52,3 +52,31 @@ print(name)
 print(address)
 print(designation)
 print(salary)
+
+#-----Dictionary -----#
+# To store data in key value pair and of different data types
+marks = [89 , 71 , 94 , 67 , 90]
+students = {
+    
+    'name' : "Ali",
+    'age' : 18,
+    'roll_no' : 54,
+    'is_pass' : True,
+    'marks' : marks
+}
+
+print(students)
+print(students['name'])
+print(students.get('age'))
+print(students['marks'][0])
+
+
+# Adding and updating values in dictionary
+students['age'] = 17
+print(students)
+students['grade'] = "A"
+print(students)
+
+#----- remove data
+
+students.pop('roll_no')  # remove specified key
