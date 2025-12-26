@@ -80,3 +80,19 @@ print(students)
 #----- remove data
 
 students.pop('roll_no')  # remove specified key
+print(students)
+
+students.popitem() #removes lat item from dictionanary
+print(students)
+
+# Nested data in dictionary
+
+stu_record = {
+    
+    101 : {'name' : 'Kashif' , 'Marks' : 560 , 'is_pass' : True},
+    102 : {'name' : 'Hassan' , 'Marks' : 720 , 'is_pass' : True},
+    103 : {'name' : 'Asad' , 'Marks' : 630 , 'is_pass' : True}
+}
+
+print(stu_record[102])
+print(stu_record[102]['name'])
